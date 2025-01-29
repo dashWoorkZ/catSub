@@ -1,0 +1,26 @@
+{
+	"name": "Subscription Categories",
+	"description": "Categorize youtube subscriptions for extended managegement",
+	"version": "1.0",
+	"manifest_version": 3,
+	"side_panel": {
+		"default_path": "sidepanel.html"
+	},
+	"permissions": [
+	"sidePanel",
+	"storage",
+	"activeTab",
+	"scripting"
+	],
+	"action": {
+		"default_title": "Click to open panel",
+		"default-icon": "icon-16.png"
+	},
+	"content_scripts":[
+		{
+		"matches":["https://www.youtube.com/@sovereignlivingsoul"],
+		"js":["main.js"]
+		}
+	]
+
+}
