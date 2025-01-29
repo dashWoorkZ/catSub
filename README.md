@@ -22,10 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This is an early draft, the final draft will need an API Key and OAuth Credentials
-in order to be fully functional, instructions for acquiring them will be included 
-with their adaption into the program, i still need to add storage and add API Key
-functionality.
+This is an early draft, i still need to add storage.
 
 <img src="imgs/img_01.png" alt="image_01.png" />
 <img src="imgs/img_02.png" alt="image_02.png" />
